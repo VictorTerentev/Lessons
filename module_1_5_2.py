@@ -1,9 +1,11 @@
 immutable_var = (1, "String", True)
 print(immutable_var)
 
-immutable_var[0] = 2
-immutable_var[1] = 'Hello'
-immutable_var[2] = False
+#immutable_var[0] = 2
+#immutable_var[1] = 'Hello'
+#immutable_var[2] = False
+# выдаст ошибку, т.к кортеж не поддерживает обращение по элементам.
+
 print(immutable_var)
 
 mutable_list = [5, "Viktor", False]
